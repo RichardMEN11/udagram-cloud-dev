@@ -59,9 +59,10 @@
 
     /* Experimental Options */
     "experimentalDecorators": true,        /* Enables experimental support for ES7 decorators. */
-    "emitDecoratorMetadata": true,         /* Enables experimental support for emitting type metadata for decorators. */
+    "emitDecoratorMetadata": true,     
+    /* Enables experimental support for emitting type metadata for decorators. */
   },
     "include": [
         "/src/**/*"
-, "feed-api/src/migrations/20190325-create-feed-item.js", "feed-api/src/controllers/v0/feed", "feed-api/src/controllers/v0/feed/models/routes", "feed-api/src/controllers/v0/feed/models"    ]
+       ]
 }
