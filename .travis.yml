@@ -21,7 +21,7 @@ scripts:
   - cd ../users-api
   - docker build -t users-api . 
   - docker tag feed-api dockerrichardmen/users-api:latest
-  - cd ../udagram-frontend
+  - cd ../../udagram-frontend
   - docker build -t udagram-frontend . 
   - docker tag feed-api dockerrichardmen/udagram-frontend:latest
 
