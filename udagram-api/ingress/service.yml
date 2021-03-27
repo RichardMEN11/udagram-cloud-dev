@@ -1,0 +1,12 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: ingress
+  labels:
+    run: ingress
+spec:
+  ports:
+  - port: 80
+    protocol: TCP
+  selector:
+    run: ingress
