@@ -42,3 +42,5 @@ venv/
 !.elasticbeanstalk/*.global.yml
 
 env.txt
+deployment.yml
+service.yml
