@@ -33,3 +33,4 @@ after_success:
   - docker push dockerrichardmen/udagram-frontend
   - docker push dockerrichardmen/feed-api
   - docker push dockerrichardmen/users-api
+  - docker push dockerrichardmen/ingress
